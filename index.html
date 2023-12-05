@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://img.gta5-mods.com/q95/images/realistic-reshade-preset-a-better-look-without-modding/5b318e-1(2).png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+        }
+
+        #refundSection {
+            color: #ffffff;
+            padding: 20px;
+            text-align: justify;
+            max-width: 800px;
+            margin: auto;
+            position: relative;
+        }
+
+        #refundSection h2 {
+            font-size: 2.5em;
+            font-weight: bold; /* Adicionado para tornar o texto mais gordinho (bold) */
+            margin-bottom: 15px;
+        }
+
+        #refundSection p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+
+        .back-button {
+            position: absolute;
+            top: 10px;
+            left: 10px; /* Alterado para a esquerda */
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 1.2em;
+            font-weight: bold; /* Adicionado para tornar o texto mais gordinho (bold) */
+            text-decoration: underline;
+        }
+
+        /* Estilos para "FiveM store" com uma coroa */
+        #fivemStore {
+            font-size: 2em;
+            font-weight: bold; /* Adicionado para tornar o texto mais gordinho (bold) */
+            color: #ffffff;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #coroa {
+            display: block;
+            margin: auto;
+            width: 50px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="refundSection">
+        <div class="back-button" onclick="goBack()">← Voltar</div>
+
+        <h2>Como reembolsar?</h2>
+        
+        <p>1- Para reembolsar um produto, basta clicar em "contatar-nos" no início. Por favor, só entre em contato em caso de reembolso quando:</p>
+        <p>Seu produto não funcionou, você não gostou, não conseguiu usar, ou seu dispositivo não conseguiu utilizar dos produtos.</p>
+        
+        <p>2- Caso você tenha usado o spoofer ou o mod menu alguma vez seja para tirar ban ou puxar armas, está inválido para pedir reembolso, pois consideramos que isso seja aproveitamento da parte de vós.</p>
+        
+        <p>3- Após enviar o e-mail pedindo reembolso, em até 6 horas alguém de nossa equipe irá aceitar/recusar o pedido de reembolso. Caso seja aceito, peço que mande sua chave pix junto com o nome do produto que comprou e o comprovante do seu pagamento quando comprou o produto. Logo após, seu reembolso já estará em conta.</p>
+        
+        <div id="fivemStore">FiveM store <img id="coroa" src="https://i2.wp.com/www.multarte.com.br/wp-content/uploads/2018/11/coroa-png-fundo-transparente4.png?ssl=1" alt="Coroa"></div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
